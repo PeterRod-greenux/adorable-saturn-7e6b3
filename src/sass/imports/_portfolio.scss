@@ -29,18 +29,20 @@
   overflow: hidden;
   position: relative;
   width: 100%;
+  color: rgba(201, 76, 76, 0.0);
 
   &:before {
     content: "";
     display: block;
     padding-top: 60%;
+   
   }
 
   &:after {
     background: rgba(_palette(charcoal), .65);
     bottom: 0;
     content: "";
-    color: rgba(201, 76, 76, 0.0);
+  
     left: 0;
     opacity: 0;
     position: absolute;
@@ -135,6 +137,7 @@
       transform: translateY(-50%);
       width: 100%;
       z-index: 2;
+      color: rgba(201, 76, 76, 0.0);
     }
 
     .project-title {
